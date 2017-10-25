@@ -67,11 +67,11 @@ WHERE favoritecolor = 'orange' OR favoritecolor = 'green';
 
 -- 13. List all the people in the Person table where their favorite color is orange, green or blue (use IN).
 SELECT * FROM person
-WHERE favoritecolor IN ('orange', 'green', 'blue')
+WHERE favoritecolor IN ('orange', 'green', 'blue');
 
 -- 14. List all the people in the Person table where their favorite color is yellow or purple (use IN).
 SELECT * FROM person
-WHERE favoritecolor IN ('yellow', 'purple')
+WHERE favoritecolor IN ('yellow', 'purple');
 
 
 
